@@ -1,0 +1,220 @@
+
+body {
+    background-color: rgb(230, 228, 228);
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+}
+.body-scroll {
+    overflow-x: scroll;
+}
+
+
+:target:active {
+    border: solid 3px rgb(64, 197, 135);
+}
+
+/*--------NAVIGATION BAR--------*/
+
+
+.container {
+    background-color: rgb(64, 197, 135) !important;
+    padding: 0px !important;
+    width: 100% !important;
+}
+
+.navbar {
+    background-color: white ! important;
+    height: 80px !important;
+    border-bottom: 2px solid rgb(189, 188, 188); 
+    width: 100% !important;
+    z-index: 1;
+    position:relative;
+}
+
+.navbar-brand {
+    color: #FFF !important;
+    font-size: 28px !important;
+    background-color: rgb(64, 197, 135);
+    padding-left: 10px !important;
+}
+
+.navbar-brand:hover {
+    color: black !important;
+}
+
+.navbar-nav {
+    color:white !important;
+    background-color: rgb(64, 197, 135);
+}
+
+.navbar .navbar-nav li a {
+    color: white !important;
+}
+
+.navbar .navbar-nav li a:hover {
+    color: black !important;
+}
+.navbar-toggler.float-right {
+    float: right !important;
+    background-color: rgb(64, 197, 135) !important; 
+    color:white !important;
+}
+
+.navbar-toggler-icon {
+    color: white !important;
+    background-color: rgb(64, 197, 135) !important;
+}
+
+.navbar-nav .mr-auto.float-right {
+    float: right !important;
+}
+
+.collapse.navbar-collapse.float-right {
+    float: right !important;
+}
+
+.dropdown-menu .pull-left {
+    color: white !important;
+    background-color: rgb(64, 197, 135) !important;
+}
+
+.dropdown-item  {
+    color: white !important;
+    background-color: rgb(64, 197, 135) !important;
+}
+
+#navbar {
+    color: white;
+}
+
+
+
+
+/*--------CONTENT--------*/
+
+.content-container {
+    margin: 20px 20px;
+    min-height: 86.5vh;
+}
+
+.main-padding {
+    padding: 30px 40px 20px 40px;
+    margin: 20px 5px;
+    background-color: white;
+}
+
+.header {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(64, 197, 135);
+    font-weight: bold;
+}
+
+h1 {
+    color:  rgb(64, 197, 135);
+    font-size: 28pt;
+}
+
+h2 {
+    color:  rgb(64, 197, 135);
+    font-size: 20pt;
+}  
+
+.main-content {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.main-image {
+    float: left;
+    width: 70%;
+    padding: 20px;
+    padding-left: 0px;
+}
+
+.large {
+    float: center;
+    width: 100%;
+    padding: 20px;
+    padding-left: 0px;
+}
+
+.side-padding {
+    padding: 30px 40px 20px 40px;
+    padding-right: 30px;
+    margin: 20px 5px;
+    margin-right: 40px;
+    background-color: white;
+}
+
+.side-row, .main-row {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.side-image {
+    width: 100%;
+    padding: 0px;
+    margin: auto;
+    /* display: block; */
+}
+
+.side-image:hover {
+    border: solid 3px rgb(64, 197, 135);
+}
+
+.active {
+    border: solid 3px rgb(64, 197, 135);
+}
+
+.centered-image {
+    position:relative;
+    max-width:100%;
+    max-height:100%;
+}
+
+.col-xs-3 {
+    margin: 0px;
+    padding: 0px;
+    margin-bottom: 20px;
+    border: 2px solid white;
+}
+
+.col-sm-12 {
+    margin: 0px;
+    padding: 0px;
+    margin-bottom: 30px;
+}
+
+.small-text {
+    font-size: 12px;
+}
+
+.strong {
+    font-weight: bold;
+}
+
+.main_container {
+    margin: 0 auto;
+    text-align: left; 
+}
+
+/* .scroll {
+    overflow: hidden scroll;
+} */
+
+
+
+/*--------FOOTER--------*/
+
+.page-footer {
+    background-color: #777;
+    color:  white;
+    border: none;
+    margin: 0px;
+    margin-top: 20px;
+    padding: 10px;
+    font-size: 12px;
+    border-top: 5px solid rgb(64, 197, 135);
+}
