@@ -3,6 +3,9 @@
 
 ## "Lattitude" - Latitude Analysis Dashboard with Attitude
 
- [ConvertCSV](http://www.convertcsv.com/csv-to-html.htm).
+Find the published website here:
+[Web Visualization Dashboard (Latitude)](https://hollybergen.github.io/Web_Visualization_Weather_vs_Latitude/)
 
-![Landing page large screen](Images/landing-lg.png)
+Find the repository with the referenced data here:
+
+
